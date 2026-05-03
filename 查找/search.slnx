@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="dynamic_table_search/dynamic_table_search.vcxproj" Id="820c7bf2-3e7c-4392-b11a-d9571464584b" />
+  <Project Path="查找/查找.vcxproj" Id="58a70f85-a74d-49de-9e5d-b8ac52b7fb60" />
+</Solution>
