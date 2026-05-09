@@ -35,3 +35,16 @@ Matrix power(Matrix A,long long p,int n,int mod){
     }
     return res;
 }
+```
+# 2026.5.9
+## 下山（动态规划+dfs）
+用vector时要注意越界，最简单的方法就是确保dp[i][j]里面的i和j都要小于dp预定的大小
+### 处理地图上下左右四个方向的一般方法
+```cpp
+int dx[4]={1,-1,0,0};
+int dy[4]={0,0,1,-1};
+for(int i=0;i<4;i++){
+    nx=x+dx[i];
+    ny=y+dy[i];
+}
+```
