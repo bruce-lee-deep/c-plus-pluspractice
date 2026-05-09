@@ -1,7 +1,7 @@
-/*#include<iostream>
+﻿#include<iostream>
 #include<cmath>
 using namespace std;
-int yvyanjia() {
+int main() {
 	int n;
 	long long a,b;
 	cin >> n >> a >> b;
@@ -12,4 +12,4 @@ int yvyanjia() {
 		cout << "No" << endl;
 	}
 	return 0;
-}*/
+}

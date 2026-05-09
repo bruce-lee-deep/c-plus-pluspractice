@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="原神启动.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="预言家.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="学号.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="你知道吗.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="数学家丁丁妹.cpp">
+    <ClCompile Include="当前题目\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

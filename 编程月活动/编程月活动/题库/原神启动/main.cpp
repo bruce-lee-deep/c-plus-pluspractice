@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <iomanip>
-#include <cmath> // °üº¬ floor º¯Êý
+#include <cmath>
 
 using namespace std;
 
-int yuanshenqidong() {
+int main() {
     double x; 
     if (!(cin >> x)) return 0;
     long long x_floor = floor(x);

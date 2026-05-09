@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int weight(int m, int n) {
 	int res = 1;
@@ -37,5 +37,5 @@ int main() {
 	}
 	cout << q_number << endl;
 	return 0;
-}*/
+}
 
