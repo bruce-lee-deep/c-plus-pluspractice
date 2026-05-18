@@ -1,17 +1,32 @@
 ﻿#include<iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(0);
-	int n;
-	cin >> n;
-	unsigned long long sum = 0;
+	int n, m;
+	long long res=LLONG_MAX;
+	cin >> n >> m;
+	vector<int>value(n);
 	for (int i = 0; i < n; i++) {
-		unsigned long long a;
-		cin >> a;
-		sum += a;
-		cout << sum;
-		if (i != n - 1) cout << " ";
+		cin >> value[i];
 	}
+	vector<vector<int>>graph(n,vector<int>(n, 0));
+	for (int i = 0; i < m; i++) {
+		int a, b;
+		cin >> a >> b;
+		graph[a-1][b-1] = 1;
+		graph[b - 1][a - 1] = 1;
+	}
+
+	for(int i = 0; i < n; i++ ){
+		long long temp = 0;
+		for (int j = 0; j < n; j++) {
+			if (graph[i][j] == 1) {
+				temp += value[j];
+			}
+		}
+		res = min(res, temp);
+    }
+	cout << res << endl;
 	return 0;
 }
